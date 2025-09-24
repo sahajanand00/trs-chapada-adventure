@@ -39,6 +39,10 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        nature: {
+          DEFAULT: "hsl(var(--nature))",
+          foreground: "hsl(var(--nature-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -57,6 +61,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-sunrise': 'var(--gradient-sunrise)',
+        'gradient-mountain': 'var(--gradient-mountain)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'mountain': 'var(--shadow-mountain)',
+      },
+      fontSize: {
+        'hero': ['var(--font-hero)', { lineHeight: '1.1', fontWeight: '800' }],
+        'section': ['var(--font-section)', { lineHeight: '1.2', fontWeight: '700' }],
       },
       borderRadius: {
         lg: "var(--radius)",

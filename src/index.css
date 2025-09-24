@@ -2,41 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* TRS Chapada Diamantina Design System - Inspired by the natural beauty of Brazilian mountains */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core brand colors - Chapada Diamantina palette */
+    --background: 20 15% 4%;
+    --foreground: 35 25% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 25 20% 8%;
+    --card-foreground: 35 25% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 25 20% 8%;
+    --popover-foreground: 35 25% 92%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Sunset Orange */
+    --primary: 25 95% 55%;
+    --primary-foreground: 20 15% 4%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Mountain Earth */
+    --secondary: 35 35% 25%;
+    --secondary-foreground: 35 25% 92%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted - Stone Grey */
+    --muted: 25 15% 15%;
+    --muted-foreground: 35 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Golden Hour */
+    --accent: 45 85% 60%;
+    --accent-foreground: 20 15% 4%;
+
+    /* Nature Green */
+    --nature: 120 40% 35%;
+    --nature-foreground: 35 25% 92%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 35 25% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 25 20% 20%;
+    --input: 25 20% 15%;
+    --ring: 25 95% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradients for epic mountain vibes */
+    --gradient-hero: linear-gradient(135deg, hsl(25 95% 55%), hsl(45 85% 60%), hsl(15 85% 50%));
+    --gradient-sunrise: linear-gradient(180deg, hsl(45 85% 60% / 0.1), transparent);
+    --gradient-mountain: linear-gradient(45deg, hsl(25 30% 15%), hsl(35 25% 20%));
+    
+    /* Shadows for depth */
+    --shadow-glow: 0 0 40px hsl(25 95% 55% / 0.3);
+    --shadow-mountain: 0 20px 60px -10px hsl(20 15% 4% / 0.8);
+    
+    /* Typography scale */
+    --font-hero: 3.5rem;
+    --font-section: 2.25rem;
 
     --sidebar-background: 0 0% 98%;
 
