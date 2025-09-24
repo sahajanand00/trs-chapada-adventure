@@ -49,11 +49,21 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-xl px-8 py-6">
-                GARANTA SUA VAGA AGORA
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-xl px-8 py-6"
+                onClick={() => window.open('https://forms.gle/ES6vA3dJzLuHQ5kEA', '_blank')}
+              >
+                GARANTIR MINHA VAGA
               </Button>
-              <Button variant="outline" size="lg" className="text-xl px-8 py-6 border-accent/40 hover:bg-accent/10">
-                SAIBA MAIS
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-xl px-8 py-6 border-accent/40 hover:bg-accent/10"
+                onClick={() => window.open('https://forms.gle/ES6vA3dJzLuHQ5kEA', '_blank')}
+              >
+                FAZER INSCRIÇÃO
               </Button>
             </div>
           </div>

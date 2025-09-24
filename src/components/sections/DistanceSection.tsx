@@ -10,7 +10,8 @@ export const DistanceSection = () => {
       price: "R$ 320,00",
       description: "Perfeito para começar sua jornada",
       icon: Flag,
-      highlight: false
+      highlight: false,
+      buttonText: "COMEÇAR AQUI"
     },
     {
       distance: "14KM", 
@@ -18,7 +19,8 @@ export const DistanceSection = () => {
       price: "R$ 350,00",
       description: "Desafio equilibrado para experientes",
       icon: Trophy,
-      highlight: false
+      highlight: false,
+      buttonText: "ACEITAR DESAFIO"
     },
     {
       distance: "21KM",
@@ -26,7 +28,8 @@ export const DistanceSection = () => {
       price: "R$ 390,00",
       description: "Liga oficial FBA - Vale pontos no ranking!",
       icon: Award,
-      highlight: true
+      highlight: true,
+      buttonText: "QUERO SER CAMPEÃO"
     }
   ];
 
@@ -93,8 +96,9 @@ export const DistanceSection = () => {
                       variant={item.highlight ? "hero" : "action"} 
                       size="lg" 
                       className="w-full text-lg font-bold"
+                      onClick={() => window.open('https://forms.gle/ES6vA3dJzLuHQ5kEA', '_blank')}
                     >
-                      ESCOLHER
+                      {item.buttonText}
                     </Button>
                   </CardContent>
                 </Card>

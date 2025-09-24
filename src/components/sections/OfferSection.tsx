@@ -59,11 +59,21 @@ export const OfferSection = () => {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-                  <Button variant="hero" size="lg" className="text-xl px-12 py-6">
-                    QUERO GARANTIR MINHA VAGA AGORA!
+                  <Button 
+                    variant="hero" 
+                    size="lg" 
+                    className="text-xl px-12 py-6"
+                    onClick={() => window.open('https://forms.gle/ES6vA3dJzLuHQ5kEA', '_blank')}
+                  >
+                    INSCREVER AGORA
                   </Button>
-                  <Button variant="outline" size="lg" className="text-xl px-8 py-6 border-accent/40">
-                    VER TODAS AS CATEGORIAS
+                  <Button 
+                    variant="outline" 
+                    size="lg" 
+                    className="text-xl px-8 py-6 border-accent/40"
+                    onClick={() => window.open('https://forms.gle/ES6vA3dJzLuHQ5kEA', '_blank')}
+                  >
+                    FAZER INSCRIÇÃO
                   </Button>
                 </div>
               </div>
