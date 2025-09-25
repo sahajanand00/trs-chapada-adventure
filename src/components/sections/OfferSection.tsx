@@ -16,7 +16,7 @@ export const OfferSection = () => {
                 <div className="space-y-4">
                   <div className="flex items-center justify-center gap-4">
                     <span className="text-muted-foreground text-2xl line-through">
-                      De R$ 390
+                      De R$ 330
                     </span>
                     <span className="text-accent text-lg">
                       (valor do 3º lote para 21km)
@@ -36,7 +36,7 @@ export const OfferSection = () => {
                     Garanta sua vaga na categoria 21km por apenas
                   </p>
                   <div className="text-3xl font-bold text-primary mb-2">
-                    R$ 292,50
+                    R$ 247,50
                   </div>
                   <p className="text-foreground/70">
                     (após 25% de desconto para moradores)
