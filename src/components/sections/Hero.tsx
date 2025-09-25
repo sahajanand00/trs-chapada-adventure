@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/chapada-hero.jpg";
+import trsLogo from "@/assets/trs-logo.png";
 
 export const Hero = () => {
   return (
@@ -15,6 +16,15 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-5xl mx-auto space-y-8">
+          {/* Logo TRS */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src={trsLogo} 
+              alt="Trail Racing Series - TRS Logo" 
+              className="w-32 h-32 md:w-40 md:h-40 object-contain drop-shadow-2xl"
+            />
+          </div>
+          
           <h1 className="text-hero leading-tight bg-gradient-hero bg-clip-text text-transparent">
             Deixe a Rotina para Trás e Transforme Sua Vida na Tribo Mais Selvagem do Brasil!
           </h1>
