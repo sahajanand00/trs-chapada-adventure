@@ -6,6 +6,15 @@ export const GuaranteeSection = () => {
     <section className="py-20 bg-gradient-mountain/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          {/* Logo TRS em tamanho grande */}
+          <div className="flex justify-center mb-12">
+            <img 
+              src={trsLogo} 
+              alt="Trail Racing Series - TRS Logo" 
+              className="w-48 h-48 md:w-56 md:h-56 object-contain drop-shadow-2xl"
+            />
+          </div>
+          
           <div className="text-center mb-12">
             <h2 className="text-section text-accent mb-4">
               Seu Compromisso é com a Aventura, Nosso com a Organização Impecável
