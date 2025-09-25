@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import trsLogo from "@/assets/trs-logo.png";
 
 export const SocialProofSection = () => {
   const proofs = [
@@ -23,6 +24,15 @@ export const SocialProofSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
+          {/* Logo TRS em tamanho maior */}
+          <div className="flex justify-center mb-12">
+            <img 
+              src={trsLogo} 
+              alt="Trail Racing Series - TRS Logo" 
+              className="w-48 h-48 md:w-56 md:h-56 object-contain drop-shadow-2xl"
+            />
+          </div>
+          
           <div className="text-center mb-16">
             <h2 className="text-section text-accent mb-4">
               Não acredite apenas na nossa palavra
