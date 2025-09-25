@@ -26,7 +26,7 @@ export const DistanceSection = () => {
       distance: "21KM",
       level: "AVANÇADO", 
       price: "R$ 390,00",
-      description: "Liga oficial FBA - Vale pontos no ranking!",
+      description: "Liga oficial FBA - pontua no ranking!",
       icon: Award,
       highlight: true,
       buttonText: "QUERO SER CAMPEÃO"
