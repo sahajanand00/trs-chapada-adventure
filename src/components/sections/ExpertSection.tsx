@@ -18,8 +18,12 @@ export const ExpertSection = () => {
             <CardContent className="p-12">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                  <div className="w-32 h-32 bg-primary/20 rounded-full mx-auto lg:mx-0 flex items-center justify-center">
-                    <span className="text-6xl">🏃‍♂️</span>
+                  <div className="w-32 h-32 bg-primary/20 rounded-full mx-auto lg:mx-0 flex items-center justify-center overflow-hidden">
+                    <img 
+                      src="/src/assets/muquinho-photo.jpg" 
+                      alt="Carlos Cesar Faria Ferreira Junior - Muquinho" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
                   <div className="text-center lg:text-left">
