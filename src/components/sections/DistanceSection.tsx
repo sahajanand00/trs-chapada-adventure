@@ -7,7 +7,7 @@ export const DistanceSection = () => {
     {
       distance: "7KM",
       level: "INICIANTE",
-      price: "R$ 320,00",
+      price: "R$ 260,00",
       description: "Perfeito para começar sua jornada",
       icon: Flag,
       highlight: false,
@@ -16,7 +16,7 @@ export const DistanceSection = () => {
     {
       distance: "14KM", 
       level: "INTERMEDIÁRIO",
-      price: "R$ 350,00",
+      price: "R$ 290,00",
       description: "Desafio equilibrado para experientes",
       icon: Trophy,
       highlight: false,
@@ -25,7 +25,7 @@ export const DistanceSection = () => {
     {
       distance: "21KM",
       level: "AVANÇADO", 
-      price: "R$ 390,00",
+      price: "R$ 330,00",
       description: "Liga oficial FBA - pontua no ranking!",
       icon: Award,
       highlight: true,
