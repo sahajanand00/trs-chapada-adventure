@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import trsLogo from "@/assets/trs-logo.png";
 
 export const GuaranteeSection = () => {
   return (
@@ -14,8 +15,12 @@ export const GuaranteeSection = () => {
           <Card className="bg-card/80 backdrop-blur-sm border-accent/20">
             <CardContent className="p-10">
               <div className="text-center space-y-6">
-                <div className="w-20 h-20 bg-accent/20 rounded-full mx-auto flex items-center justify-center">
-                  <span className="text-3xl">🛡️</span>
+                <div className="w-20 h-20 bg-accent/20 rounded-full mx-auto flex items-center justify-center p-2">
+                  <img 
+                    src={trsLogo} 
+                    alt="TRS Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 
                 <div className="space-y-4">
