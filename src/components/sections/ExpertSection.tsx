@@ -1,5 +1,4 @@
 import {muquinho-Photo} from "@/assets/muquinho-photo.jpg";
-
 export const ExpertSection = () => {
   return (
     <section className="py-20 bg-background">
