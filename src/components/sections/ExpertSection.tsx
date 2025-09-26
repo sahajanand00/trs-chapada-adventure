@@ -1,4 +1,5 @@
-<span className="text-6xl">🏃‍♂️</span>
+import { Card, CardContent } from "@/components/ui/card"
+import muquinhoPhoto from "../assets/muquinho-photo.jpg"
 
 export const ExpertSection = () => {
   return (
