@@ -1,3 +1,4 @@
+importar muquinhoPhoto de "@/assets/muquinho-photo.jpg";
 
 export const ExpertSection = () => {
   return (
