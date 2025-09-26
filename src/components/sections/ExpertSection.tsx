@@ -1,4 +1,4 @@
-import muquinhoPhoto from "@/assets/muquinho-photo.jpg";
+<span className="text-6xl">🏃‍♂️</span>
 
 export const ExpertSection = () => {
   return (
