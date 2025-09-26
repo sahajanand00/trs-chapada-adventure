@@ -20,7 +20,7 @@ export const ExpertSection = () => {
                 <div className="space-y-6">
                   <div className="w-32 h-32 bg-primary/20 rounded-full mx-auto lg:mx-0 flex items-center justify-center overflow-hidden">
                     <img 
-                      src="src={muquinho-Photo}" 
+                      src="src={muquinhoPhoto}" 
                       alt="Carlos Cesar Faria Ferreira Junior - Muquinho" 
                       className="w-full h-full object-cover"
                     />
