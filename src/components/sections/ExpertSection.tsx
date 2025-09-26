@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/assets/muquinho-photo.jpg";
 
 export const ExpertSection = () => {
   return (
